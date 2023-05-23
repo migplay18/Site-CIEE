@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Menu Inicial</title>
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div class="tudo">
+            <div id="topo">
+                <a href="index.html"><img src="img/logo.png" alt="Logo Site"  height="200px" width="280px" align="middle"> </a>
+                <input id="lado" type="text" placeholder="Pesquise aqui..." >
+                <input type="button" value="Pesquisar" src="#">
+            </div>
+            <h1 style="color: black;">Dados da Empresa:</h1>
+            <fieldset style="margin-left: 150px"><legend>Nome da empresa:</legend>
+                <input style="margin-left: auto;" id="lado" type="text" value="Avaliar Culinaria" readonly>
+            </fieldset>
+                
+            <fieldset><legend>Email:</legend>
+                <input style="margin-left: auto;" id="lado" type="text" value="AvaliarCulinaria@hotmail.com" readonly>
+            </fieldset>
+
+            <fieldset><legend>Contato:</legend>
+                <input style="margin-left: auto;" id="lado" type="text" value="(11)94002-8922" readonly>
+            </fieldset><br>
+            <h4 style="margin-top: 100px;">Adicione um novo restaurante</h4>
+            <form action="avaliacao.html" method="post">
+                <fieldset><legend>Nome do restaurante:</legend>
+                    <input style="margin-left: auto;" id="lado" type="text" placeholder="nome do restaurante:" required>
+                </fieldset>
+                <fieldset><legend>E-mail:</legend>
+                    <input style="margin-left: auto;" id="lado" type="text" placeholder="Adicione seu E-mail:" required>
+                </fieldset>
+                <fieldset><legend>Contato:</legend>
+                    <input style="margin-left: auto;" id="lado" type="number" placeholder="Adicione seu Telefone:" required>
+                </fieldset>
+                <fieldset><legend>Avaliação:</legend>
+                    <textarea name="comida" placeholder="insira aqui informações complementares sobre o restaurante:
+Assim que analizado, te daremos um retorno sobre a inplantação do restaurante."rows="15" cols="101"></textarea>
+                    <br>
+                    <input type="submit">
+                </fieldset>
+            </form>
+            <h6>Site feito por Miguel Angelo Carvalho - ADS 1ºI</h6>
+            <h6>Tema escolhido: Site de análise de produtos</h6>
+        </div>
+    </body>
+</html>
